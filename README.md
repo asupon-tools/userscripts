@@ -1,24 +1,31 @@
-# Leonardo.ai 本日分 一括ダウンロード
+# asupon-tools (ユーザースクリプト集)
 
-Leonardo.ai の「Today」セクションに表示されている画像だけをまとめてダウンロードするTampermonkeyスクリプトです。
+Web作業を効率化するためのTampermonkey（ユーザースクリプト）をまとめたリポジトリです。各ツールの詳細はそれぞれのフォルダを参照してください。
 
-## 特徴
-- 「今日」生成した画像だけを対象に一括ダウンロード
-- 仮想スクロール対策済み（画面外の画像も取りこぼさず収集）
-- 可能な限り高画質URLを優先して取得（失敗時は自動フォールバック）
+---
 
-## インストール方法
-1. [Tampermonkey](https://www.tampermonkey.net/) をブラウザに導入
-2. このリポジトリの `leonardo_bulk_download.user.js` を開き、Tampermonkeyにインストール
-3. Leonardo.aiの生成画面を開くと、右上に「今日の画像を一括DL」ボタンが表示されます
+## 🛠️ 収録ツール一覧
 
-## 使い方
-ボタンを押すと画像を自動収集し、件数を確認したうえでダウンロードを開始します。
+### 1. Leonardo.ai 本日分 一括ダウンロード
+Leonardo.ai の「Today」セクションに表示されている画像だけをまとめてダウンロードするツールです。
+
+* **主な機能**: 「今日」生成された画像の一括取得、仮想スクロール対策、高画質URLの優先取得
+* **詳細・使い方**: [レオナルド一括ダウンロード](./レオナルド一括ダウンロード) フォルダを参照
+
+---
+
+### 2. Adobe Stock AI Metadata Filler
+Adobe Stock へのアセット投稿時にメタデータ入力を補助・自動化するツールです。
+
+* **主な機能**: AI生成画像のメタデータ入力補助
+* **詳細・使い方**: [AdobeStock-MetaDataMake](./AdobeStock-MetaDataMake) フォルダを参照
+
+---
 
 ## ☕ サポート / Support
 
-このスクリプトが役に立ったら、コーヒー一杯分のサポートをいただけると嬉しいです！
-If this tool has saved you time, a coffee-sized tip would be greatly appreciated ☕
+これらのスクリプトが役に立ったら、コーヒー一杯分のサポートをいただけると嬉しいです！  
+If these tools have saved you time, a coffee-sized tip would be greatly appreciated ☕
 
 <a href="https://buymeacoffee.com/trendsnews" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 180px !important;">
